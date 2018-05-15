@@ -1,0 +1,111 @@
+﻿/*Universal attributes*/
+* {
+    font-family: helvetica;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* overflow-y can also be scroll */
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+/*Container*/
+section {
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 290px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 30px;
+}
+
+table tr td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.table-login tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checked {
+    position: absolute;
+    bottom: -4px;
+    left: 2%;
+    width: 48%;
+}
+
+.checked1 {
+    position: absolute;
+    bottom: 44.5px;
+    left: 10%;
+    width: 60%;
+}
+
+.checked2 {
+    position: absolute;
+    bottom: 26.5px;
+    left: 10%;
+    width: 60%;
+}
+
+.checked3 {
+    position: absolute;
+    bottom: 8.5px;
+    left: 10%;
+    width: 60%;
+}
+
+#ValidationSummary {
+    display: none;
+}
+
+.resize  {
+    height: 30px;
+}
+
+span {
+    margin-top: -12px;
+}
+
+label {
+    margin-top: 2px;
+}
+
+table tr td {
+    font-size: 20px;
+}
+
+input[type=text], [type=password] {
+    line-height: 2em;
+    border-radius: 3px;
+    border: none;
+}
+
+input[type=submit] {
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    float: right;
+    margin-left: 3%;
+    width: 60px;
+    height: 30px;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+}
